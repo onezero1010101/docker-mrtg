@@ -10,7 +10,7 @@ services:
       - "./conf.d:/etc/mrtg/conf.d"
       - "./html:/mrtg/html"
     environment:
-        TZ: "Brazil/East"
+        TZ: "America/Indiana/Indianapolis"
         HOSTS: 'public:192.168.0.123'
     tmpfs:
       - "/run"
